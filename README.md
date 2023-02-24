@@ -1,2 +1,0 @@
-# LoanCalculator_react
- 
