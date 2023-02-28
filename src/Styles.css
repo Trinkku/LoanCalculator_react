@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@300;600;700&family=Roboto:wght@100&display=swap');/*general use*/
+
+  h1,h2,h3,h4,h5,h6, span{
+      color: #242424;
+      text-align: center;
+      line-height: 1.25;
+
+  }
+  p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+  .Home-content{
+    display: flex;
+}
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
