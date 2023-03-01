@@ -10,7 +10,7 @@ function Wrapper() {
       <div className="wrapper__row">
         <div className="wrapper__title">
           <h3>Make a loan calculation easily online</h3>
-          <p>Need a loan for a home, a car or just for living? The loan calculator estimates the loan costs for a selected loan term.</p>
+          <p>Need a loan for a home or a car? The loan calculator estimates the loan costs for a selected loan term.</p>
         </div>
         <div className="wrapper__container">
           <div className="wrapper__container--title">
