@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Calculator.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faCar } from '@fortawesome/free-solid-svg-icons'
+import HouseLoanCalculator from '../HouseLoan/HouseLoanCalculator'
+import CarLoanCalculator from '../CarLoan/CarLoanCalculator'
 
 
 export default function Calculator() {
@@ -11,6 +13,10 @@ export default function Calculator() {
   const handleHouseClick = () => {
     setSelectedLoan('house')
     console.log("clicked house")
+  }
+  const handleCarClick = () => {
+    setSelectedLoan('car')
+    console.log("clicked car")
   }
 
   return (
@@ -28,7 +34,8 @@ export default function Calculator() {
                     <h2>Home</h2>
                     <p>Car, motorbike, boat</p>
                 </div>
-         
+                {selectedLoan === 'house' && <HouseLoanCalculator />}
+                {selectedLoan === 'car' && <CarLoanCalculator />}
         </div>
     </div>
   )
