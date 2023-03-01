@@ -23,7 +23,7 @@ const HouseLoanCalculator = () => {
     <div className='houseloan__container'>
         <form className='form__container'>
             <div>
-            <label>How much you need to borrow:</label>
+            <label>How much you need to borrow?</label>
             <div className="input__container">
             <input type="text" id="number" step="1000" value={principal} onChange={handlePrincipalChange} />
             </div>
@@ -35,7 +35,7 @@ const HouseLoanCalculator = () => {
             </div>
             </div>
             <div>
-            <label>Interest rate %:</label>
+            <label>Interest rate %</label>
             <div className="input__container">
             <input type="number" step="0.01" value={interestRate} onChange={(e) => setInterestRate(e.target.value)} />
             </div>

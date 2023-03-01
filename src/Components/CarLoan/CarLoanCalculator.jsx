@@ -24,13 +24,13 @@ const CarLoanCalculator = () => {
     <div className='carloan__container'>
       <form className='form__container'>
         <div>
-          <label>How much you need to borrow:</label>
+          <label>How much you need to borrow?</label>
           <div className='input__container'>
             <input type='text' id='number' step='1000' value={principal} onChange={handlePrincipalChange} />
           </div>
         </div>
         <div>
-          <label>Loan term in months:</label>
+          <label>Loan term in months</label>
           <div className='input__container'>
             <input type='number' step='1' value={loanTerm} onChange={(e) => setLoanTerm(e.target.value)} />
           </div>
