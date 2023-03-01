@@ -12,11 +12,10 @@ export default function Calculator() {
 
   const handleHouseClick = () => {
     setSelectedLoan('house')
-    console.log("clicked house")
   }
   const handleCarClick = () => {
     setSelectedLoan('car')
-    console.log("clicked car")
+
   }
 
   return (
@@ -29,14 +28,18 @@ export default function Calculator() {
                     <h2>Home</h2>
                     <p>Owner–occupied flat, house</p>
                 </button>
-                <div className="calculator__box">
+               <button  className={`calculator__box ${selectedLoan === 'car'  ? 'calculator__box--selected' : ''}`} 
+                onClick={handleCarClick}>
                     <FontAwesomeIcon icon={faCar} className="calculator__box--icon"/>
                     <h2>Home</h2>
                     <p>Car, motorbike, boat</p>
-                </div>
+                </button>
+                </div>               
+          <div className="calculator__base">
                 {selectedLoan === 'house' && <HouseLoanCalculator />}
                 {selectedLoan === 'car' && <CarLoanCalculator />}
-        </div>
+          </div>
+   
     </div>
   )
 }
