@@ -1,4 +1,11 @@
-House and car loan application. I am currently working on it. 
+A simple Financial Web Project build with react. 
+Calculator for house and car loans
+
+
+![Näyttökuva 2023-3-1 kello 11 59 25](https://user-images.githubusercontent.com/91623412/222106535-801ac91f-91fc-41f2-bed8-275a6320ff53.png)
+![Näyttökuva 2023-3-1 kello 11 57 42](https://user-images.githubusercontent.com/91623412/222106529-f451c05c-e589-4c02-8bf4-89b02603db78.png)
+
+
 
 # Getting Started with Create React App
 
