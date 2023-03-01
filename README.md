@@ -1,6 +1,7 @@
-A simple Financial Web Project build with react. 
-Calculator for house and car loans
+The House and Car Loan Calculator is a simple web application that allows users to calculate the monthly payment on a home or car loan based on their desired loan amount, interest rate, and loan term. The application was developed using React.
 
+The calculator uses a simple formula to calculate the monthly payment, based on the loan amount, interest rate, and loan term.
+I was using hooks such as useState to manage the state of application, and used that state to calculate the monthly loan payment.
 
 ![Näyttökuva 2023-3-1 kello 11 59 25](https://user-images.githubusercontent.com/91623412/222106535-801ac91f-91fc-41f2-bed8-275a6320ff53.png)
 ![Näyttökuva 2023-3-1 kello 11 57 42](https://user-images.githubusercontent.com/91623412/222106529-f451c05c-e589-4c02-8bf4-89b02603db78.png)
