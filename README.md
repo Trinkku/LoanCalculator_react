@@ -1,7 +1,6 @@
-The House and Car Loan Calculator is a simple web application that allows users to calculate the monthly payment on a home or car loan based on their desired loan amount, interest rate, and loan term. The application was developed using React.
+# Loan Calculator 
 
-The calculator uses a simple formula to calculate the monthly payment, based on the loan amount, interest rate, and loan term.
-I was using hooks such as useState to manage the state of application, and used that state to calculate the monthly loan payment.
+Loan Calculator is a web application that allows users to calculate the monthly payment for a home or car loan. Users input their desired loan amount, interest rate, and loan term, and the application calculates the monthly payment using a formula that combines these inputs. The application is built using React and hooks, such as useState, to manage the state of the application and calculate the monthly loan payment.
 
 ![Näyttökuva 2023-3-1 kello 11 59 25](https://user-images.githubusercontent.com/91623412/222106535-801ac91f-91fc-41f2-bed8-275a6320ff53.png)
 ![Näyttökuva 2023-3-1 kello 11 57 42](https://user-images.githubusercontent.com/91623412/222106529-f451c05c-e589-4c02-8bf4-89b02603db78.png)
@@ -49,32 +48,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
